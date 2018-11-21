@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03713665886705085E60F4BE /* Pods_HelpifyAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3690EB26A4777ABAD049F4A4 /* Pods_HelpifyAPP.framework */; };
+		1F3653064574A0095B04DDDA /* Pods_HelpifyAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72ABC9FE23019E582F6F878 /* Pods_HelpifyAPPUITests.framework */; };
+		6566578655B2F055BA8E8F57 /* Pods_HelpifyAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25E75DE3091C279D48B81BA /* Pods_HelpifyAPPTests.framework */; };
+		AF0AB28C218ED70C00AE7027 /* BaseSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AB28B218ED70C00AE7027 /* BaseSignUpViewController.swift */; };
+		AF0AB28E218ED72400AE7027 /* UserSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AB28D218ED72400AE7027 /* UserSignUpViewController.swift */; };
+		AF0AB2922190E2EA00AE7027 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AB2912190E2EA00AE7027 /* SettingsTableViewController.swift */; };
+		AF0AB29421915CC600AE7027 /* HelpifyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AB29321915CC600AE7027 /* HelpifyUser.swift */; };
+		AF1040CE21A4017B00797202 /* InsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1040CD21A4017B00797202 /* InsDetailViewController.swift */; };
+		AF1040D021A4065100797202 /* AbrigedPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1040CF21A4065100797202 /* AbrigedPostCollectionViewCell.swift */; };
+		AF1040D221A4315B00797202 /* ProfilePostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1040D121A4315B00797202 /* ProfilePostsViewController.swift */; };
+		AF176BF221A201F80079A32D /* imageData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF176BF021A201F80079A32D /* imageData.xcdatamodeld */; };
+		AF176BF421A213810079A32D /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF176BF321A213810079A32D /* LoadingScreenViewController.swift */; };
+		AF267B812194DBD800752902 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF267B802194DBD800752902 /* SettingsTableViewCell.swift */; };
+		AF2D8E25219E04C8009270D7 /* RecentDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D8E24219E04C8009270D7 /* RecentDonationsViewController.swift */; };
+		AF2D8E27219E05F1009270D7 /* DonationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D8E26219E05F1009270D7 /* DonationTableViewCell.swift */; };
+		AF2D8E9D219E36CC009270D7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D8E9C219E36CC009270D7 /* DataManager.swift */; };
+		AF2D8E9F219E36F1009270D7 /* HelpifyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D8E9E219E36F1009270D7 /* HelpifyPost.swift */; };
+		AF2D8EA1219E39D8009270D7 /* HelpifyDonation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D8EA0219E39D8009270D7 /* HelpifyDonation.swift */; };
+		AF2D8EA3219EA56C009270D7 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D8EA2219EA56C009270D7 /* PostDetailViewController.swift */; };
+		AF7EE50A21A2BAA300AB37F1 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EE50921A2BAA300AB37F1 /* ThankYouViewController.swift */; };
+		AF7EE50C21A3686A00AB37F1 /* VerifyDonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EE50B21A3686A00AB37F1 /* VerifyDonationViewController.swift */; };
+		AF9C403B218C46C600A688DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF9C403A218C46C600A688DC /* GoogleService-Info.plist */; };
 		AFA499B4218C3B640066E5C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499B3218C3B640066E5C2 /* AppDelegate.swift */; };
-		AFA499B6218C3B640066E5C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499B5218C3B640066E5C2 /* ViewController.swift */; };
 		AFA499B9218C3B640066E5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA499B7218C3B640066E5C2 /* Main.storyboard */; };
 		AFA499BB218C3B660066E5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA499BA218C3B660066E5C2 /* Assets.xcassets */; };
 		AFA499BE218C3B660066E5C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA499BC218C3B660066E5C2 /* LaunchScreen.storyboard */; };
 		AFA499C9218C3B660066E5C2 /* HelpifyAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499C8218C3B660066E5C2 /* HelpifyAPPTests.swift */; };
 		AFA499D4218C3B660066E5C2 /* HelpifyAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499D3218C3B660066E5C2 /* HelpifyAPPUITests.swift */; };
+		AFA499E2218C3BC30066E5C2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499E1218C3BC30066E5C2 /* StartViewController.swift */; };
+		AFA499E4218C3BDA0066E5C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499E3218C3BDA0066E5C2 /* LoginViewController.swift */; };
+		AFA499EA218C432D0066E5C2 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499E9218C432D0066E5C2 /* HomeTabViewController.swift */; };
+		AFB8B7B921A5B5F8002DB092 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8B7B821A5B5F8002DB092 /* Reachability.swift */; };
+		AFC1354A218D057B00DA202A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC13549218D057B00DA202A /* MapViewController.swift */; };
+		AFC1354C218EAFB400DA202A /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AFC1354B218EAFB400DA202A /* images.jpeg */; };
+		AFCA62AC219CD9FD006BF428 /* LocationSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA62AB219CD9FD006BF428 /* LocationSelectorViewController.swift */; };
+		AFF65FA5218C5EE1005FC547 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF65FA4218C5EE1005FC547 /* ProfileViewController.swift */; };
+		AFF65FAD218C65B2005FC547 /* PostsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF65FAC218C65B2005FC547 /* PostsCollectionViewController.swift */; };
+		AFF65FAF218C6A2D005FC547 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF65FAE218C6A2D005FC547 /* PostCollectionViewCell.swift */; };
+		AFF65FB1218CDBAF005FC547 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF65FB0218CDBAF005FC547 /* NewPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +66,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D998C93C655C4689F46028 /* Pods-HelpifyAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpifyAPPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelpifyAPPUITests/Pods-HelpifyAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		236E70816691A858ED3E6F01 /* Pods-HelpifyAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpifyAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelpifyAPP/Pods-HelpifyAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		2A309F699464DE9AE7DAB722 /* Pods-HelpifyAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpifyAPPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelpifyAPPTests/Pods-HelpifyAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3690EB26A4777ABAD049F4A4 /* Pods_HelpifyAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpifyAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4751B72E239EEB7E0FF828B4 /* Pods-HelpifyAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpifyAPPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelpifyAPPUITests/Pods-HelpifyAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5268333DE7FB5835864C687D /* Pods-HelpifyAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpifyAPPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelpifyAPPTests/Pods-HelpifyAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF0AB28B218ED70C00AE7027 /* BaseSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSignUpViewController.swift; sourceTree = "<group>"; };
+		AF0AB28D218ED72400AE7027 /* UserSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUpViewController.swift; sourceTree = "<group>"; };
+		AF0AB2912190E2EA00AE7027 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		AF0AB29321915CC600AE7027 /* HelpifyUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpifyUser.swift; sourceTree = "<group>"; };
+		AF1040CD21A4017B00797202 /* InsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsDetailViewController.swift; sourceTree = "<group>"; };
+		AF1040CF21A4065100797202 /* AbrigedPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbrigedPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF1040D121A4315B00797202 /* ProfilePostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostsViewController.swift; sourceTree = "<group>"; };
+		AF176BF121A201F80079A32D /* imageData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = imageData.xcdatamodel; sourceTree = "<group>"; };
+		AF176BF321A213810079A32D /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+		AF267B802194DBD800752902 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		AF2D8E24219E04C8009270D7 /* RecentDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentDonationsViewController.swift; sourceTree = "<group>"; };
+		AF2D8E26219E05F1009270D7 /* DonationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTableViewCell.swift; sourceTree = "<group>"; };
+		AF2D8E9C219E36CC009270D7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		AF2D8E9E219E36F1009270D7 /* HelpifyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpifyPost.swift; sourceTree = "<group>"; };
+		AF2D8EA0219E39D8009270D7 /* HelpifyDonation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpifyDonation.swift; sourceTree = "<group>"; };
+		AF2D8EA2219EA56C009270D7 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		AF7EE50921A2BAA300AB37F1 /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		AF7EE50B21A3686A00AB37F1 /* VerifyDonationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyDonationViewController.swift; sourceTree = "<group>"; };
+		AF9C403A218C46C600A688DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AFA499B0218C3B640066E5C2 /* HelpifyAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpifyAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA499B3218C3B640066E5C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFA499B5218C3B640066E5C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFA499B8218C3B640066E5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFA499BA218C3B660066E5C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFA499BD218C3B660066E5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +103,20 @@
 		AFA499CF218C3B660066E5C2 /* HelpifyAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpifyAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA499D3218C3B660066E5C2 /* HelpifyAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpifyAPPUITests.swift; sourceTree = "<group>"; };
 		AFA499D5218C3B660066E5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA499E1218C3BC30066E5C2 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		AFA499E3218C3BDA0066E5C2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFA499E9218C432D0066E5C2 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		AFB8B7B821A5B5F8002DB092 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AFC13549218D057B00DA202A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AFC1354B218EAFB400DA202A /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		AFCA62AB219CD9FD006BF428 /* LocationSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectorViewController.swift; sourceTree = "<group>"; };
+		AFF65FA4218C5EE1005FC547 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AFF65FAC218C65B2005FC547 /* PostsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCollectionViewController.swift; sourceTree = "<group>"; };
+		AFF65FAE218C6A2D005FC547 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFF65FB0218CDBAF005FC547 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		B72ABC9FE23019E582F6F878 /* Pods_HelpifyAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpifyAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABAECABA54E6C6DFFF1904C /* Pods-HelpifyAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpifyAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelpifyAPP/Pods-HelpifyAPP.release.xcconfig"; sourceTree = "<group>"; };
+		F25E75DE3091C279D48B81BA /* Pods_HelpifyAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpifyAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03713665886705085E60F4BE /* Pods_HelpifyAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6566578655B2F055BA8E8F57 /* Pods_HelpifyAPPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +140,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3653064574A0095B04DDDA /* Pods_HelpifyAPPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B24AF434DA120BA2FADE178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3690EB26A4777ABAD049F4A4 /* Pods_HelpifyAPP.framework */,
+				F25E75DE3091C279D48B81BA /* Pods_HelpifyAPPTests.framework */,
+				B72ABC9FE23019E582F6F878 /* Pods_HelpifyAPPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AFA499A7218C3B640066E5C2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +164,8 @@
 				AFA499C7218C3B660066E5C2 /* HelpifyAPPTests */,
 				AFA499D2218C3B660066E5C2 /* HelpifyAPPUITests */,
 				AFA499B1218C3B640066E5C2 /* Products */,
+				D6ABAD1C8C26672301246400 /* Pods */,
+				7B24AF434DA120BA2FADE178 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +183,39 @@
 			isa = PBXGroup;
 			children = (
 				AFA499B3218C3B640066E5C2 /* AppDelegate.swift */,
-				AFA499B5218C3B640066E5C2 /* ViewController.swift */,
+				AF2D8E9C219E36CC009270D7 /* DataManager.swift */,
+				AF2D8EA0219E39D8009270D7 /* HelpifyDonation.swift */,
+				AF267B802194DBD800752902 /* SettingsTableViewCell.swift */,
+				AF2D8E9E219E36F1009270D7 /* HelpifyPost.swift */,
+				AFC13549218D057B00DA202A /* MapViewController.swift */,
 				AFA499B7218C3B640066E5C2 /* Main.storyboard */,
+				AF1040D121A4315B00797202 /* ProfilePostsViewController.swift */,
+				AF1040CD21A4017B00797202 /* InsDetailViewController.swift */,
+				AF7EE50921A2BAA300AB37F1 /* ThankYouViewController.swift */,
+				AF176BF321A213810079A32D /* LoadingScreenViewController.swift */,
+				AF2D8E26219E05F1009270D7 /* DonationTableViewCell.swift */,
+				AF1040CF21A4065100797202 /* AbrigedPostCollectionViewCell.swift */,
+				AFF65FB0218CDBAF005FC547 /* NewPostViewController.swift */,
+				AF0AB2912190E2EA00AE7027 /* SettingsTableViewController.swift */,
+				AFF65FA4218C5EE1005FC547 /* ProfileViewController.swift */,
+				AFA499E9218C432D0066E5C2 /* HomeTabViewController.swift */,
+				AF0AB29321915CC600AE7027 /* HelpifyUser.swift */,
 				AFA499BA218C3B660066E5C2 /* Assets.xcassets */,
 				AFA499BC218C3B660066E5C2 /* LaunchScreen.storyboard */,
 				AFA499BF218C3B660066E5C2 /* Info.plist */,
+				AF9C403A218C46C600A688DC /* GoogleService-Info.plist */,
+				AFA499E1218C3BC30066E5C2 /* StartViewController.swift */,
+				AFB8B7B821A5B5F8002DB092 /* Reachability.swift */,
+				AF7EE50B21A3686A00AB37F1 /* VerifyDonationViewController.swift */,
+				AFA499E3218C3BDA0066E5C2 /* LoginViewController.swift */,
+				AFF65FAC218C65B2005FC547 /* PostsCollectionViewController.swift */,
+				AFF65FAE218C6A2D005FC547 /* PostCollectionViewCell.swift */,
+				AF0AB28B218ED70C00AE7027 /* BaseSignUpViewController.swift */,
+				AF2D8EA2219EA56C009270D7 /* PostDetailViewController.swift */,
+				AF0AB28D218ED72400AE7027 /* UserSignUpViewController.swift */,
+				AFCA62AB219CD9FD006BF428 /* LocationSelectorViewController.swift */,
+				AF2D8E24219E04C8009270D7 /* RecentDonationsViewController.swift */,
+				AF176BF021A201F80079A32D /* imageData.xcdatamodeld */,
 			);
 			path = HelpifyAPP;
 			sourceTree = "<group>";
@@ -119,10 +232,24 @@
 		AFA499D2218C3B660066E5C2 /* HelpifyAPPUITests */ = {
 			isa = PBXGroup;
 			children = (
+				AFC1354B218EAFB400DA202A /* images.jpeg */,
 				AFA499D3218C3B660066E5C2 /* HelpifyAPPUITests.swift */,
 				AFA499D5218C3B660066E5C2 /* Info.plist */,
 			);
 			path = HelpifyAPPUITests;
+			sourceTree = "<group>";
+		};
+		D6ABAD1C8C26672301246400 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				236E70816691A858ED3E6F01 /* Pods-HelpifyAPP.debug.xcconfig */,
+				CABAECABA54E6C6DFFF1904C /* Pods-HelpifyAPP.release.xcconfig */,
+				2A309F699464DE9AE7DAB722 /* Pods-HelpifyAPPTests.debug.xcconfig */,
+				5268333DE7FB5835864C687D /* Pods-HelpifyAPPTests.release.xcconfig */,
+				07D998C93C655C4689F46028 /* Pods-HelpifyAPPUITests.debug.xcconfig */,
+				4751B72E239EEB7E0FF828B4 /* Pods-HelpifyAPPUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFA499D8218C3B660066E5C2 /* Build configuration list for PBXNativeTarget "HelpifyAPP" */;
 			buildPhases = (
+				573F6827F0DC18797D916671 /* [CP] Check Pods Manifest.lock */,
 				AFA499AC218C3B640066E5C2 /* Sources */,
 				AFA499AD218C3B640066E5C2 /* Frameworks */,
 				AFA499AE218C3B640066E5C2 /* Resources */,
+				231C1ADDCBF80C44A974A2DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFA499DB218C3B660066E5C2 /* Build configuration list for PBXNativeTarget "HelpifyAPPTests" */;
 			buildPhases = (
+				8C7BA64EF06FF36450BFB9A9 /* [CP] Check Pods Manifest.lock */,
 				AFA499C0218C3B660066E5C2 /* Sources */,
 				AFA499C1218C3B660066E5C2 /* Frameworks */,
 				AFA499C2218C3B660066E5C2 /* Resources */,
+				9D7A3ED6B67A191D18965C3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFA499DE218C3B660066E5C2 /* Build configuration list for PBXNativeTarget "HelpifyAPPUITests" */;
 			buildPhases = (
+				98A27ED15ED373F7AAD390B7 /* [CP] Check Pods Manifest.lock */,
 				AFA499CB218C3B660066E5C2 /* Sources */,
 				AFA499CC218C3B660066E5C2 /* Frameworks */,
 				AFA499CD218C3B660066E5C2 /* Resources */,
@@ -230,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFA499BE218C3B660066E5C2 /* LaunchScreen.storyboard in Resources */,
+				AF9C403B218C46C600A688DC /* GoogleService-Info.plist in Resources */,
 				AFA499BB218C3B660066E5C2 /* Assets.xcassets in Resources */,
 				AFA499B9218C3B640066E5C2 /* Main.storyboard in Resources */,
 			);
@@ -246,18 +379,167 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC1354C218EAFB400DA202A /* images.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231C1ADDCBF80C44A974A2DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelpifyAPP/Pods-HelpifyAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelpifyAPP/Pods-HelpifyAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		573F6827F0DC18797D916671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelpifyAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7BA64EF06FF36450BFB9A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelpifyAPPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A27ED15ED373F7AAD390B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelpifyAPPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7A3ED6B67A191D18965C3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelpifyAPPTests/Pods-HelpifyAPPTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelpifyAPPTests/Pods-HelpifyAPPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFA499AC218C3B640066E5C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA499B6218C3B640066E5C2 /* ViewController.swift in Sources */,
+				AF1040D221A4315B00797202 /* ProfilePostsViewController.swift in Sources */,
+				AFF65FA5218C5EE1005FC547 /* ProfileViewController.swift in Sources */,
+				AF2D8EA3219EA56C009270D7 /* PostDetailViewController.swift in Sources */,
+				AFA499E4218C3BDA0066E5C2 /* LoginViewController.swift in Sources */,
+				AF0AB28E218ED72400AE7027 /* UserSignUpViewController.swift in Sources */,
 				AFA499B4218C3B640066E5C2 /* AppDelegate.swift in Sources */,
+				AF176BF421A213810079A32D /* LoadingScreenViewController.swift in Sources */,
+				AFB8B7B921A5B5F8002DB092 /* Reachability.swift in Sources */,
+				AF267B812194DBD800752902 /* SettingsTableViewCell.swift in Sources */,
+				AF2D8EA1219E39D8009270D7 /* HelpifyDonation.swift in Sources */,
+				AF2D8E27219E05F1009270D7 /* DonationTableViewCell.swift in Sources */,
+				AF7EE50C21A3686A00AB37F1 /* VerifyDonationViewController.swift in Sources */,
+				AF7EE50A21A2BAA300AB37F1 /* ThankYouViewController.swift in Sources */,
+				AF2D8E25219E04C8009270D7 /* RecentDonationsViewController.swift in Sources */,
+				AF2D8E9D219E36CC009270D7 /* DataManager.swift in Sources */,
+				AF0AB28C218ED70C00AE7027 /* BaseSignUpViewController.swift in Sources */,
+				AFC1354A218D057B00DA202A /* MapViewController.swift in Sources */,
+				AFA499E2218C3BC30066E5C2 /* StartViewController.swift in Sources */,
+				AF1040CE21A4017B00797202 /* InsDetailViewController.swift in Sources */,
+				AF1040D021A4065100797202 /* AbrigedPostCollectionViewCell.swift in Sources */,
+				AF2D8E9F219E36F1009270D7 /* HelpifyPost.swift in Sources */,
+				AFF65FAF218C6A2D005FC547 /* PostCollectionViewCell.swift in Sources */,
+				AFCA62AC219CD9FD006BF428 /* LocationSelectorViewController.swift in Sources */,
+				AF0AB2922190E2EA00AE7027 /* SettingsTableViewController.swift in Sources */,
+				AF176BF221A201F80079A32D /* imageData.xcdatamodeld in Sources */,
+				AFF65FB1218CDBAF005FC547 /* NewPostViewController.swift in Sources */,
+				AF0AB29421915CC600AE7027 /* HelpifyUser.swift in Sources */,
+				AFF65FAD218C65B2005FC547 /* PostsCollectionViewController.swift in Sources */,
+				AFA499EA218C432D0066E5C2 /* HomeTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,15 +712,17 @@
 		};
 		AFA499D9218C3B660066E5C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236E70816691A858ED3E6F01 /* Pods-HelpifyAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF49TA8PR7;
 				INFOPLIST_FILE = HelpifyAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.HelpifyAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.helpify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,15 +731,17 @@
 		};
 		AFA499DA218C3B660066E5C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABAECABA54E6C6DFFF1904C /* Pods-HelpifyAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF49TA8PR7;
 				INFOPLIST_FILE = HelpifyAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.HelpifyAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.helpify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +750,7 @@
 		};
 		AFA499DC218C3B660066E5C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A309F699464DE9AE7DAB722 /* Pods-HelpifyAPPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +771,7 @@
 		};
 		AFA499DD218C3B660066E5C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5268333DE7FB5835864C687D /* Pods-HelpifyAPPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +792,7 @@
 		};
 		AFA499DF218C3B660066E5C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D998C93C655C4689F46028 /* Pods-HelpifyAPPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +812,7 @@
 		};
 		AFA499E0218C3B660066E5C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4751B72E239EEB7E0FF828B4 /* Pods-HelpifyAPPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +870,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF176BF021A201F80079A32D /* imageData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF176BF121A201F80079A32D /* imageData.xcdatamodel */,
+			);
+			currentVersion = AF176BF121A201F80079A32D /* imageData.xcdatamodel */;
+			path = imageData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AFA499A8218C3B640066E5C2 /* Project object */;
 }
