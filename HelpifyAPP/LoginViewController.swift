@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
                     if FINISHED{
                         DataManager.data.loadPosts { (didFinish) in
                             if didFinish{
-                                DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(5), execute: {
+                                DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2), execute: {
                                     self.stopAnimation()
                                     self.performSegue(withIdentifier: "loginToHome", sender: nil)
                                 })

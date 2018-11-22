@@ -234,8 +234,13 @@ class DataManager{
         ref.child("Users").observeSingleEvent(of: .value) { (snapshot) in
             for child in snapshot.children{
                 let user = (child as! DataSnapshot).value as! NSDictionary
-                if user["InstitutionID"] as! String != "null"{
-                    self.institutionLocations[user["fullname"] as! String] = HelpifyUser(dict: user)
+                if user["InstitutionID"] != nil{
+                    if user["InstitutionID"] as! String != "null"{
+                        self.institutionLocations[user["fullname"] as! String] = HelpifyUser(dict: user)
+                    }
+                }
+                else{
+                    self.institutionLocations[user["fullname"] as! String] = HelpifyUser()
                 }
             }
         } 

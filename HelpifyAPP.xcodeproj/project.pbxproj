@@ -28,7 +28,6 @@
 		AF2D8EA3219EA56C009270D7 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D8EA2219EA56C009270D7 /* PostDetailViewController.swift */; };
 		AF7EE50A21A2BAA300AB37F1 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EE50921A2BAA300AB37F1 /* ThankYouViewController.swift */; };
 		AF7EE50C21A3686A00AB37F1 /* VerifyDonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EE50B21A3686A00AB37F1 /* VerifyDonationViewController.swift */; };
-		AF9C403B218C46C600A688DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF9C403A218C46C600A688DC /* GoogleService-Info.plist */; };
 		AFA499B4218C3B640066E5C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499B3218C3B640066E5C2 /* AppDelegate.swift */; };
 		AFA499B9218C3B640066E5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA499B7218C3B640066E5C2 /* Main.storyboard */; };
 		AFA499BB218C3B660066E5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA499BA218C3B660066E5C2 /* Assets.xcassets */; };
@@ -39,6 +38,7 @@
 		AFA499E4218C3BDA0066E5C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499E3218C3BDA0066E5C2 /* LoginViewController.swift */; };
 		AFA499EA218C432D0066E5C2 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA499E9218C432D0066E5C2 /* HomeTabViewController.swift */; };
 		AFB8B7B921A5B5F8002DB092 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8B7B821A5B5F8002DB092 /* Reachability.swift */; };
+		AFB8B7BB21A7454D002DB092 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFB8B7BA21A7454C002DB092 /* GoogleService-Info.plist */; };
 		AFC1354A218D057B00DA202A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC13549218D057B00DA202A /* MapViewController.swift */; };
 		AFC1354C218EAFB400DA202A /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AFC1354B218EAFB400DA202A /* images.jpeg */; };
 		AFCA62AC219CD9FD006BF428 /* LocationSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA62AB219CD9FD006BF428 /* LocationSelectorViewController.swift */; };
@@ -90,7 +90,6 @@
 		AF2D8EA2219EA56C009270D7 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 		AF7EE50921A2BAA300AB37F1 /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
 		AF7EE50B21A3686A00AB37F1 /* VerifyDonationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyDonationViewController.swift; sourceTree = "<group>"; };
-		AF9C403A218C46C600A688DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AFA499B0218C3B640066E5C2 /* HelpifyAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpifyAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA499B3218C3B640066E5C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFA499B8218C3B640066E5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +106,7 @@
 		AFA499E3218C3BDA0066E5C2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AFA499E9218C432D0066E5C2 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 		AFB8B7B821A5B5F8002DB092 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AFB8B7BA21A7454C002DB092 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AFC13549218D057B00DA202A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AFC1354B218EAFB400DA202A /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		AFCA62AB219CD9FD006BF428 /* LocationSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectorViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +182,7 @@
 		AFA499B2218C3B640066E5C2 /* HelpifyAPP */ = {
 			isa = PBXGroup;
 			children = (
+				AFB8B7BA21A7454C002DB092 /* GoogleService-Info.plist */,
 				AFA499B3218C3B640066E5C2 /* AppDelegate.swift */,
 				AF2D8E9C219E36CC009270D7 /* DataManager.swift */,
 				AF2D8EA0219E39D8009270D7 /* HelpifyDonation.swift */,
@@ -203,7 +204,6 @@
 				AFA499BA218C3B660066E5C2 /* Assets.xcassets */,
 				AFA499BC218C3B660066E5C2 /* LaunchScreen.storyboard */,
 				AFA499BF218C3B660066E5C2 /* Info.plist */,
-				AF9C403A218C46C600A688DC /* GoogleService-Info.plist */,
 				AFA499E1218C3BC30066E5C2 /* StartViewController.swift */,
 				AFB8B7B821A5B5F8002DB092 /* Reachability.swift */,
 				AF7EE50B21A3686A00AB37F1 /* VerifyDonationViewController.swift */,
@@ -362,7 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFA499BE218C3B660066E5C2 /* LaunchScreen.storyboard in Resources */,
-				AF9C403B218C46C600A688DC /* GoogleService-Info.plist in Resources */,
+				AFB8B7BB21A7454D002DB092 /* GoogleService-Info.plist in Resources */,
 				AFA499BB218C3B660066E5C2 /* Assets.xcassets in Resources */,
 				AFA499B9218C3B640066E5C2 /* Main.storyboard in Resources */,
 			);
@@ -716,13 +716,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CF49TA8PR7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelpifyAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.helpify;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.helpify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -735,13 +735,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CF49TA8PR7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelpifyAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.helpify;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.helpify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

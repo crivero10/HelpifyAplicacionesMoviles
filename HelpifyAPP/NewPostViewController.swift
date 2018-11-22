@@ -100,6 +100,7 @@ class NewPostViewController: UIViewController, UINavigationControllerDelegate, U
         postTextView.layer.borderWidth = 0.5
         postTextView.layer.borderColor = borderColor.cgColor
         postTextView.layer.cornerRadius = 5.0
+        self.hideKeyboardWhenTappedAround()
     }
     
     func openCamera(){

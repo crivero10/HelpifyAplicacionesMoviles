@@ -14,7 +14,7 @@ import FirebaseStorage
 
 private let reuseIdentifier = "celdaPosts"
 
-class PostsCollectionViewController: UICollectionViewController {
+class PostsCollectionViewController: UICollectionViewController{
     
     var ref: DatabaseReference! = Database.database().reference()
     let storage = Storage.storage()
@@ -174,6 +174,7 @@ class PostsCollectionViewController: UICollectionViewController {
         return celda
     }
 
+    
     // MARK: UICollectionViewDelegate
 
     /*

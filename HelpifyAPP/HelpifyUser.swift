@@ -29,13 +29,55 @@ class HelpifyUser{
         self.userID = ""
     }
     init(dict : NSDictionary){
-        self.InstitutionID = dict["InstitutionID"] as! String
-        self.country = dict["country"] as! String
-        self.fullname = dict["fullname"] as! String
-        self.instLatitud = dict["instLatitud"] as! String
-        self.instLongitud = dict["instLongitud"] as! String
-        self.profileimage = dict["profileimage"] as! String
-        self.username = dict["username"] as! String
+        if dict["InstitutionID"] != nil{
+            self.InstitutionID = dict["InstitutionID"] as! String
+        }
+        else{
+            self.InstitutionID = "null"
+        }
+        
+        if dict["country"] != nil{
+            self.country = dict["country"] as! String
+        }
+        else{
+            self.country = ""
+        }
+        
+        if dict["fullname"] != nil{
+            self.fullname = dict["fullname"] as! String
+        }
+        else{
+            self.fullname = ""
+        }
+        
+        if dict["instLatitud"] != nil{
+            self.instLatitud = dict["instLatitud"] as! String
+        }
+        else{
+            self.instLatitud = ""
+        }
+        
+        if dict["instLongitud"] != nil{
+            self.instLongitud = dict["instLongitud"] as! String
+        }
+        else{
+            self.instLongitud = ""
+        }
+
+        if dict["profileimage"] != nil{
+            self.profileimage = dict["profileimage"] as! String
+        }
+        else{
+            self.profileimage = ""
+        }
+        
+        if dict["username"] != nil{
+            self.username = dict["username"] as! String
+        }
+        else{
+            self.username = ""
+        }
+
         self.userID = ""
     }
 
