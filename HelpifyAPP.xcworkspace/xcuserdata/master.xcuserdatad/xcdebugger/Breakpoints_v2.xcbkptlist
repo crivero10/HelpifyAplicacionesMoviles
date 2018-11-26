@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelpifyAPP/LoginViewController.swift"
+            timestampString = "564618685.58402"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HelpifyAPP.LoginViewController.email.getter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "HelpifyAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/master/Documents/devops/HelpifyAPP/HelpifyAPP/LoginViewController.swift"
+                  timestampString = "562843383.105181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HelpifyAPP.LoginViewController.email.setter : weak Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "HelpifyAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/master/Documents/devops/HelpifyAPP/HelpifyAPP/LoginViewController.swift"
+                  timestampString = "562843383.10808"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HelpifyAPP.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HelpifyAPP.LoginViewController"
+                  moduleName = "HelpifyAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/master/Documents/devops/HelpifyAPP/HelpifyAPP/LoginViewController.swift"
+                  timestampString = "562843383.109807"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HelpifyAPP.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HelpifyAPP.LoginViewController&gt;"
+                  moduleName = "HelpifyAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/master/Documents/devops/HelpifyAPP/HelpifyAPP/LoginViewController.swift"
+                  timestampString = "562843383.111338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

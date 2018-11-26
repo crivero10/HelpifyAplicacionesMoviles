@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=notepad
+MimeType=text/plain;
+Exec=env WINEPREFIX="/tmp/Cisco Packet Tracer 7.1.1.app/Contents/Resources" wine start /ProgIDOpen txtfile %f
+NoDisplay=true
+StartupNotify=true
+Icon=1E64_notepad.0

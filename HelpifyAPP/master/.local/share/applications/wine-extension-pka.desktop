@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Packet Tracer Executable
+MimeType=application/x-wine-extension-pka;
+Exec=env WINEPREFIX="/Applications/Cisco Packet Tracer.app/Contents/Resources" wine start /ProgIDOpen PacketTracer7.Activity %f
+NoDisplay=true
+StartupNotify=true
+Icon=4217_PacketTracer7.0

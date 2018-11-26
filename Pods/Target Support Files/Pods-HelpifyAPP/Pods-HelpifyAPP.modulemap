@@ -1,0 +1,6 @@
+framework module Pods_HelpifyAPP {
+  umbrella header "Pods-HelpifyAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}

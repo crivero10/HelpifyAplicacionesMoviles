@@ -1,0 +1,6 @@
+framework module Pods_HelpifyAPPUITests {
+  umbrella header "Pods-HelpifyAPPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
